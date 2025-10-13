@@ -3,7 +3,7 @@ IF(NOT DEFINED CMAKE_INSTALL_SYSTEM_RUNTIME_LIBS_NO_WARNINGS)
     SET(CMAKE_INSTALL_SYSTEM_RUNTIME_LIBS_NO_WARNINGS ON)
 ENDIF()
 
-cmake_minimum_required(VERSION 3.1)
+cmake_minimum_required(VERSION 3.1...3.10)
 IF (UNIX)
     OPTION(ADD_ASAN "Use ASAN to show memory issues" FALSE)
     OPTION(ADD_TSAN "Use TSAN to show thread issues" FALSE)
